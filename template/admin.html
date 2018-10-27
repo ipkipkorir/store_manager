@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Store Manager</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="logo">
+				<h1>Store Manager: <span>Admin</span></h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="login.html">Back</a></li>
+                    <li><a href="login.html">Checkout</a></li>
+                    <li><a href="login.html">View Sale Records</a></li>
+                    <li class="current"><a href="login.html">View Products</a></li>
+                    <li><a href="login.html">Logout</a></li>
+                </ul>
+            </div>
+		</div>
+	</header>
+
+	<section id="boxes">
+		<div class="container">
+            
+            <div class="box">
+                <img src="../img/men_shoe.jpg" alt="men shoe">
+                <P>Shs1200</P>
+                <P><a href="#">View Product</a></P>
+                <p><a href="#">Edit Product</a></p>
+                <p><a href="#">Delete Product</a></p>
+            </div>
+            <div class="box">
+                <img src="../img/men_trouser.jpg" alt="men trouser">
+                <P>Shs1200</P>
+                <p><a href="#">View Product</a></p>
+                <p><a href="#">Edit Product</a></p>
+                <p><a href="#">Delete Product</a></p>
+            </div>
+            <div class="box">
+                <img src="../img/men_shirt.jpg" alt="men shirt">
+                <P>Shs1700</P>
+                <p><a href="#">View Product</a></p>
+                <p><a href="#">Edit Product</a></p>
+                <p><a href="#">Delete Product</a></p>
+            </div>
+            <aside id="sidebar">
+                <h3>Add Product</h3>
+                <ul>
+                    <form action="#">
+                        <label>Product Name: </label><br>
+                        <input class="sidebar_field" type="text" name="productname" placeholder="Enter product name"><br>
+                        <label>Price:</label><br>
+                        <input class="sidebar_field" type="text" name="price" placeholder="Enter price"><br>
+                        <label>Quantity:</label><br>
+                        <input class="sidebar_field" type="text" name="quantity" placeholder="Enter quantity"><br>
+                        <label>Description:</label><br>
+                        <textarea name="description" placeholder="Enter description"></textarea><br>
+                        <button>Submit</button>
+                    </form>
+                </ul>
+            </aside>
+
+		</div>
+	</section>
+	<footer>
+        <center>Store Attendant Copyright &copy 2018</center>
+    </footer>
+</body>
+</html>
