@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Store Manager</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="logo">
+				<h1>Store Manager: <span>Admin</span></h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="login.html">Back</a></li>
+                    <li><a href="login.html">Checkout</a></li>
+                    <li class="current"><a href="login.html">View Sale Records</a></li>
+                    <li><a href="login.html">View Products</a></li>
+                    <li><a href="login.html">Logout</a></li>
+                </ul>
+            </div>
+		</div>
+	</header>
+
+	<section id="boxes">
+		<div class="container">
+            <h3>Store Attendants:</h3>
+            <div class="box">
+                <img src="../img/attendant-1.png" alt="Attendant 1">
+                <P>Joshua A</P>
+                <P><a href="#">View Sale Records</a></P>
+
+            </div>
+            <div class="box">
+                <img src="../img/attendant-1.png" alt="Attendant 2">
+                <P>Andrew M</P>
+                <P><a href="#">View Sale Records</a></P>
+            </div>
+            <div class="box">
+                <img src="../img/attendant-1.png" alt="Attendant 3">
+                <P>Mercy N</P>
+                <P><a href="#">View Sale Records</a></P>
+            </div>
+            <aside id="sidebar">
+                <h3>Create Attendant</h3>
+                <ul>
+                    <form action="#">
+                        <label>First Name: </label><br>
+                        <input class="sidebar_field" type="text" name="firstname" placeholder="First Name"><br>
+                        <label>Last Name:</label><br>
+                        <input class="sidebar_field" type="text" name="lasname" placeholder="Last Name"><br>
+                        <label>Gender:</label>
+                        <select type="text" name="gender" placeholder="Gender">
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select><br>
+                        <label>Email:</label><br>
+                        <input class="sidebar_field" type="text" name="email" placeholder="Enter email"><br>
+                        <label>Password:</label><br>
+                        <input class="sidebar_field" type="text" name="password" placeholder="Enter password"><br>
+                        <label>Confirm Password:</label><br>
+                        <input class="sidebar_field" type="text" name="password" placeholder="Confirm password"><br>
+                        <button>Submit</button>
+                    </form>
+                </ul>
+            </aside>
+
+		</div>
+	</section>
+	<footer>
+        Store Attendant Copyright &copy 2018
+    </footer>
+</body>
+</html>
